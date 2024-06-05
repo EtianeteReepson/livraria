@@ -89,84 +89,34 @@
     <!-- Humberger End -->
 
     <!-- Header Section Begin -->
-    <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
-                            <div class="header__top__right__language">
-                                <img src="support/img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
-                            </div>
-                            <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
-                            </div>
-                        </div>
-                    </div>
+   <header class="header">  
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <nav class="header__menu">
+                    <ul>
+                        <li><a href="./shop-grid.html">Home</a></li>
+                        <li class="active"><a href="./shop-grid.html">Livros</a></li>
+                        <li><a href="./contact.html">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="header__cart">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="support/img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu">
-                        <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./shop-grid.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
-                    </div>
-                </div>
-            </div>
+    
             <div class="humberger__open">
                 <i class="fa fa-bars"></i>
             </div>
-        </div>
-    </header>
-    <!-- Header Section End -->
+    </div>
+</header>
+<!-- Header Section End -->
 
     <!-- Hero Section Begin -->
     <section class="hero hero-normal">
@@ -176,20 +126,18 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Categoria</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#">Arte</a></li>
+                            <li><a href="#">Banda Desenhada</a></li>
+                            <li><a href="#">Ciências</a></li>
+                            <li><a href="#">Ciências Económicas</a></li>
+                            <li><a href="#">Ciências Sociais e Humanas</a></li>
+                            <li><a href="#">Direiro</a></li>
+                            <li><a href="#">Literatura</a></li>
+                            <li><a href="#">Gastronomia e Vinhos</a></li>
+                            <li><a href="#">Desporto e Lazer</a></li>
                         </ul>
                     </div>
                 </div>
@@ -197,21 +145,19 @@
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
-                                <div class="hero__search__categories">
-                                    All Categories
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <input type="text" placeholder="O que está procurando?">
+                                <button type="submit" class="site-btn">Pesquisar</button>
                             </form>
                         </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>+65 11.188.888</h5>
-                                <span>support 24/7 time</span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="header__top__right">
+                                        <div class="header__top__right__auth">
+                                            <a href="#"><i class="fa fa-user"></i> Login</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -222,16 +168,14 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="support/img/breadcrumb.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="https://www.bertrand.pt/img/bn_30sunsetsparateapaixonares.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Vegetable’s Package</h2>
+                        <h2>Um livro é um sonho que você segura com as mãos</h2>
                         <div class="breadcrumb__option">
-                            <a href="./index.html">Home</a>
-                            <a href="./index.html">Vegetables</a>
-                            <span>Vegetable’s Package</span>
+                            <span>Neil Gaiman</span>
                         </div>
                     </div>
                 </div>
@@ -248,23 +192,23 @@
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="support/img/product/details/product-details-1.jpg" alt="">
+                                src="https://www.livrarialello.pt/uploads/products/9789898939395%20(1).jpg" alt="">
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="support/img/product/details/product-details-2.jpg"
-                                src="support/img/product/details/thumb-1.jpg" alt="">
-                            <img data-imgbigurl="support/img/product/details/product-details-3.jpg"
-                                src="support/img/product/details/thumb-2.jpg" alt="">
-                            <img data-imgbigurl="support/img/product/details/product-details-5.jpg"
-                                src="support/img/product/details/thumb-3.jpg" alt="">
-                            <img data-imgbigurl="support/img/product/details/product-details-4.jpg"
-                                src="support/img/product/details/thumb-4.jpg" alt="">
+                            <img data-imgbigurl="https://www.livrarialello.pt/uploads/products/9789898939395%20(2).jpg"
+                                src="https://www.livrarialello.pt/uploads/products/9789898939395%20(3).jpg" alt="">
+                            <img data-imgbigurl="https://www.livrarialello.pt/uploads/products/9789898939395%20(4).jpg"
+                                src="https://www.livrarialello.pt/uploads/products/9789898939395%20(5).jpg" alt="">
+                            <img data-imgbigurl="https://www.livrarialello.pt/uploads/products/9789898939395%20(4).jpg"
+                                src="https://www.livrarialello.pt/uploads/products/9789898939395%20(1).jpg" alt="">
+                            <img data-imgbigurl="https://www.livrarialello.pt/uploads/products/9789898939395%20(2).jpg"
+                                src="https://www.livrarialello.pt/uploads/products/9789898939395%20(3).jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="product__details__text">
-                        <h3>Vetgetable’s Package</h3>
+                        <h3>Alicia en el País de las Maravilhas</h3>
                         <div class="product__details__rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -273,10 +217,11 @@
                             <i class="fa fa-star-half-o"></i>
                             <span>(18 reviews)</span>
                         </div>
-                        <div class="product__details__price">$50.00</div>
-                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
-                            vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet
-                            quam vehicula elementum sed sit amet dui. Proin eget tortor risus.</p>
+                        <div class="product__details__price">Kz16,000</div>
+                        <p>Dizem que Alice viveu aventuras imaginárias e imaginadas, vindas da desordem do absurdo. Deixem dizer. 
+                            Quem lê estas aventuras sabe bem como Alice viveu várias vidas que são também as nossas. 
+                            Que o absurdo que a confronta também nos surpreende ao longo das nossas vidas, das nossas pessoalíssimas aventuras. 
+                            Este livro é nada menos do que a toca de coelho que nos leva, pela mão de Alice, rumo a inesquecíveis maravilhas.</p>
                         <div class="product__details__quantity">
                             <div class="quantity">
                                 <div class="pro-qty">
@@ -284,13 +229,15 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">ADD TO CARD</a>
+                        <a href="#" class="primary-btn">ADICIONAR AO CARRINHO</a>
                         <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         <ul>
-                            <li><b>Availability</b> <span>In Stock</span></li>
-                            <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
-                            <li><b>Weight</b> <span>0.5 kg</span></li>
-                            <li><b>Share on</b>
+                            <li><b>Ano de edição:</b> <span>10-2016</span></li>
+                            <li><b>Editor:</b> <span> Planeta Junior Colombia</span></li>
+                            <li><b>Idioma:</b> <span>Espanhol</span></li>
+                            <li><b>Coleção:</b> <span>The Little Collection</span></li>
+                            <li><b>Páginas:</b> <span>25</span></li>
+                            <li><b>Partilhar</b>
                                 <div class="share">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -306,76 +253,36 @@
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
-                                    aria-selected="true">Description</a>
+                                    aria-selected="true">SINOPSE</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
-                                    aria-selected="false">Information</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
-                                    aria-selected="false">Reviews <span>(1)</span></a>
+                                    aria-selected="false">SOBRE O AUTOR</a>
                             </li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane active" id="tabs-1" role="tabpanel">
                                 <div class="product__details__tab__desc">
-                                    <h6>Products Infomation</h6>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-                                        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus
-                                        suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam
-                                        vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada.
-                                        Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat,
-                                        accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a
-                                        pellentesque nec, egestas non nisi. Vestibulum ac diam sit amet quam vehicula
-                                        elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus
-                                        et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
-                                        vel, ullamcorper sit amet ligula. Proin eget tortor risus.</p>
-                                        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet
-                                        elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                                        porta. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus
-                                        nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed
-                                        porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum
-                                        sed sit amet dui. Proin eget tortor risus.</p>
+                                    <h6>Informaçōes sobre o livro</h6>
+                                    <p>Este ebook presenta "Alicia en el País de las Maravillas", con un índice dinámico y detallado. 
+                                        Es una obra de literatura creada por Charles Dodgson y de la primera edición de 1865. 
+                                        El libro trata de una niña que tiene una imaginación muy viva porque le pasan cosas muy extrañas y después de todo, resulta 
+                                        que todo ha sido un sueño. En esta obra aparecen algunos de los personajes más famosos de Carroll, como el Conejo 
+                                        Blanco, El Sombrerero, la Oruga azul, el Gato de Cheshire o la Reina de Corazones; quienes han cobrado importancia 
+                                        suficiente para ser reconocidos fuera del mundo de Alicia. Lewis Carroll es el seudónimo por el que es conocido en 
+                                        la historia de la literatura. Charles Lutwidge Dodgson ( 1832 - 1898), diácono anglicano, lógico, matemático, fotógrafo 
+                                        y escritor británico, conocido sobre todo por su obra Alicia en el país de las maravillas y su secuela, Alicia a través 
+                                        del espejo.</p>
+                                        
                                 </div>
                             </div>
                             <div class="tab-pane" id="tabs-2" role="tabpanel">
                                 <div class="product__details__tab__desc">
-                                    <h6>Products Infomation</h6>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-                                        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.
-                                        Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam
-                                        sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo
-                                        eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.
-                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent
-                                        sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ac
-                                        diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante
-                                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                                        Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                                        Proin eget tortor risus.</p>
-                                    <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet
-                                        elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                                        porta. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus
-                                        nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-3" role="tabpanel">
-                                <div class="product__details__tab__desc">
-                                    <h6>Products Infomation</h6>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-                                        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.
-                                        Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam
-                                        sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo
-                                        eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.
-                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent
-                                        sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ac
-                                        diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante
-                                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                                        Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                                        Proin eget tortor risus.</p>
+                                    <h6>LEWIS CARROLL</h6>
+                                    <p>Lewis Carroll (1832-1898), pseudónimo de Charles Lutwidge Dodgson, distinguiu-se como 
+                                        escritor, matemático e fotógrafo. Autor de contos e poemas como Jabberwocky, obteve a 
+                                        consagração com Alice no País das Maravilhas e Alice do Outro Lado do Espelho.
+                                    <p>
                                 </div>
                             </div>
                         </div>
@@ -392,14 +299,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title related__product__title">
-                        <h2>Related Product</h2>
+                        <h2>PRODUTOS RELACIONADOS</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="support/img/product/product-1.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="https://img.bertrand.pt/images/alicia-en-el-pais-de-las-maravillas-lewis-carroll/NDV8Mjk0NzM1ODF8MjU4ODQxMzh8MTcxNTk0NTI2NzAwMHx3ZWJw/300x">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -407,14 +314,14 @@
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">ALICIA EN EL PAÍS DE LAS MARAVILLAS</a></h6>
+                            <h5>Kz2,000</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="support/img/product/product-2.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="https://img.bertrand.pt/images/alicia-en-el-pais-de-las-maravillas-aa-vv/NDV8Mjk2MjE2NzV8MjYwNTE1NzF8MTcwNTcxMjAzODAwMHx3ZWJw/300x">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -422,14 +329,14 @@
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">ALICIA EN EL PAÍS DE LAS MARAVILLAS</a></h6>
+                            <h5>Kz16,000</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="support/img/product/product-3.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="https://img.bertrand.pt/images/mago-de-ozel-aavv/NDV8MjkxMTY3MjJ8MjU0OTY1MzN8MTY4ODQ2NDM5NjAwMHx3ZWJw/300x">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -437,14 +344,14 @@
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">EL MAGO DE OZ</a></h6>
+                            <h5>Kz15,100</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="support/img/product/product-7.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="https://img.bertrand.pt/images/alice-no-pais-das-maravilhas-lewis-carroll/NDV8MTYyNjk0NzB8MTE4NTE0ODN8MTUwMzQ3NjMzNDAwMHx3ZWJw/300x">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -452,8 +359,8 @@
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Alice no País das Maravilhas</a></h6>
+                            <h5>Kz10,000</h5>
                         </div>
                     </div>
                 </div>
@@ -468,61 +375,49 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="support/img/logo.png" alt=""></a>
+                        <ul>
+                            <li>Endereço: Luanda, Angola</li>
+                            <li>Telefone: +244 924081716</li>
+                            <li>Email: reepson@livrariareepson.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 mb-5">
+                            <h5 class="font-weight-bold text-dark mb-4">LINKS ÚTEIS</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-dark mb-2" href="index.html"><i class="fa mr-2"></i>Apoio ao Cliente</a>
+                                <a class="text-dark mb-2" href="shop.html"><i class="fa mr-2"></i>Termos de utilização</a>
+                                <a class="text-dark mb-2" href="detail.html"><i class="fa mr-2"></i>Política de privacidade</a>
+                                <a class="text-dark mb-2" href="cart.html"><i class="fa mr-2"></i>Livro de Reclamações</a>
+                                <a class="text-dark mb-2" href="cart.html"><i class="fa mr-2"></i>Livro de Elógios</a>
+                            </div>
                         </div>
-                        <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <div class="col-md-4 mb-5">
+                            <h5 class="font-weight-bold text-dark mb-4">REEPSON.NET</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-dark mb-2" href="index.html"><i class="fa mr-2"></i>Quem Somos</a>
+                                <a class="text-dark mb-2" href="shop.html"><i class="fa mr-2"></i>As nossas livrarias</a>
+                                <a class="text-dark mb-2" href="detail.html"><i class="fa mr-2"></i>Cartão Reepson</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="support/img/payment-item.png" alt=""></div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="footer__widget">
+                                <h6>NEWSLETTER</h6>
+                                <p>Deseja receber e-mail da Reepson?</p>
+                                <form action="#">
+                                    <input type="text" placeholder=" Insira o seu email ">
+                                    <button type="submit" class="site-btn">Subscrever</button>
+                                </form>
+                                <div class="footer__widget__social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
